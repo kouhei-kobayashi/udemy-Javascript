@@ -22,4 +22,8 @@ function multiply(a,b){
 function callback(){
 
 }
-doSomething(2*2,multiply);
+function plus(a,b){
+    return a + b;
+}
+doSomething(2 , 3, multiply);
+doSomething(2,2,multiply);
