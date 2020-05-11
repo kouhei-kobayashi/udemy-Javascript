@@ -12,7 +12,7 @@
 
 
 function doSomething(a,b,callback){
-    const result = callback(a,b)
+    const result = callback(a,b);
     console.log(result);
 }
 
